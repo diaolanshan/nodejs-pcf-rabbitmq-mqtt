@@ -1,6 +1,8 @@
 A nodejs application which target to demo how to use mqtt protocol to connect to an rabbitmq which hosted in the cloudfoundry platform.
 
-The application depends on the following library:
+The client library used in this application is [MQTT.js](https://github.com/mqttjs/MQTT.js):
+
+So finally the pacakge.json should contains the following dependencies:
 ```json
 "dependencies": {
         "restify": "7.2.2",
