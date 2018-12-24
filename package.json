@@ -1,0 +1,13 @@
+{
+	"name":"nodejs-pcf-rabbitmq-mqtt",
+	"version":"0.0.1",
+	"description":"Cloud Foundry + RabbitMQ + mqtt example.",
+	"main":"app.js",
+	"author":"Eric Zhang",
+	"dependencies": {
+		"restify": "7.2.2",
+		"mqtt": "^2.13.0",
+		"bluebird": "^3.5.0",
+		"cfenv": "1.1.0"
+	}
+}
